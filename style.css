@@ -1,0 +1,530 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* scroll */
+html {
+    scroll-behavior: smooth;
+
+}
+
+/* navbar start */
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    box-shadow: inset 15px 15px 40px grey;
+    background-color: white;
+    border-top: 2px solid black;
+    border-radius: 3px;
+    border-bottom: 2px solid black;
+
+}
+
+/* logo */
+.logo h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-name: logo;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-weight: 900;
+    color: rgb(0, 81, 255);
+
+}
+
+
+.logo h2::before {
+    content: "";
+    position: fixed;
+    top: 47px;
+    width: 0px;
+    height: 4px;
+    animation-name: animate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.typed {
+    color: red;
+    border-bottom: 2px solid red;
+    transform: scale(1.1);
+}
+
+/* anker links */
+.navbar a {
+    transition: all 1s ease-in-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.navbar a:hover {
+    transition: all 1s ease-in-out;
+    background-color: #969494;
+    color: black;
+}
+
+.navbar a:hover::before {
+    width: 0px;
+}
+
+.navbar a::before {
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 30px;
+    height: 2px;
+    bottom: 17px;
+    transition: all ease-in-out 1s
+}
+
+/* header */
+#header {
+    background-image: url(img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 580px;
+    display: flex;
+    align-items: center;
+}
+
+.name h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+.name h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.social-links a {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.fa-facebook {
+    width: 50px;
+}
+
+/* footer */
+#footer {
+    background-color: rgba(15, 15, 73, 0.863);
+    width: 100%;
+    height: 370px;
+
+}
+
+.text b {
+    color: rgb(250, 45, 45);
+}
+
+.portfolio h2 {
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+}
+
+.text p {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.footer-links {
+    text-align: center;
+    font-size: 17px;
+}
+
+.pic img {
+    box-shadow: 5px 3px 70px 30px #888888;
+    border-radius: 50%;
+    height: 500px;
+}
+
+.photo img {
+    box-shadow: 5px 3px 40px 20px #888888;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+
+}
+
+#aboutuss {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.text p {
+    word-spacing: 1px;
+}
+
+.data h2 {
+    margin-bottom: 30px;
+}
+
+.data li {
+    color: #888888;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 7px;
+    list-style: none;
+}
+
+.data li span {
+    color: white;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+/* clients */
+#counter {
+    background-color: black;
+}
+
+.counter {
+    background-color: white;
+    padding: 10px;
+    margin-top: 70px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    padding-bottom: 15PX;
+    box-shadow: inset 5px 5px 40px grey;
+
+}
+
+.counter i {
+    position: absolute;
+    top: -23px;
+    font-size: 40px;
+    color: rgb(255, 255, 189);
+    left: 43%;
+}
+
+.counter h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 20px;
+    color: black;
+}
+
+.counter p {
+    line-height: 0px;
+    font-weight: bold;
+    margin-left: 6px;
+    color: #868686;
+}
+
+/* skills */
+#skill {
+    background-color: black;
+}
+
+.skills {
+
+    color: white;
+}
+
+.skills span {
+    float: inline-end;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: coral;
+}
+
+.skills label {
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: coral;
+}
+
+.progress {
+    margin-bottom: 20px;
+    height: 12px;
+}
+
+/* tastomonials */
+#tastomonials {
+    background-color: black;
+}
+
+.card {
+    padding: 13px;
+    color: white;
+    background-color: #201f1f;
+    box-shadow: inset 2px 2px 15px grey;
+    margin-top: 50px;
+    border: 3px solid rgb(255, 238, 238);
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+.card p {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    left: 15px;
+    border: 2px solid white;
+}
+
+.card i {
+    font-size: 30px;
+    color: goldenrod;
+}
+
+.card h6 {
+    position: absolute;
+    top: 235px;
+    color: white;
+
+}
+
+.card span {
+    position: absolute;
+    top: 253px;
+    color: #888888;
+    font-weight: bold;
+
+}
+
+/* cv */
+.cvpic {
+    display: flex;
+    justify-self: center;
+    border: none;
+    margin-top: 25px;
+}
+
+/* resume start */
+#summery {
+    background-color: black;
+    width: 100%;
+    height: 800px;
+}
+
+
+
+.summery {
+    color: white;
+    margin-top: 20px;
+    position: relative;
+}
+
+.summery h3,
+p,
+li {
+    margin-left: 20px;
+}
+
+.summery h6 {
+    margin-left: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.summery h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    margin-top: 30px;
+
+}
+
+.summery h3 {
+    color: #888888;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.line {
+    width: 2px;
+    height: 210px;
+    background-color: red;
+    position: absolute;
+    top: 505px;
+}
+
+.lines {
+    width: 2px;
+    height: 330px;
+    background-color: red;
+    position: absolute;
+    top: 45px;
+
+}
+
+.line-3 {
+    width: 2px;
+    height: 620px;
+    background-color: red;
+    position: absolute;
+    top: 507px;
+}
+
+.list-items li {
+    margin-top: 7px;
+}
+
+#services {
+    background-color: black;
+    width: 100%;
+    height: 1050px;
+    padding-top: 20px;
+}
+
+.servic {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 40px;
+    background-color: white;
+    transition: 1s all ease-in-out;
+    box-shadow: inset 10px 10px 30px grey;
+    cursor: pointer;
+}
+
+.servic h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.servic p {
+    margin: 10px;
+}
+
+.servic:hover {
+    transform: scale(1.1);
+    background-color: #201f1f;
+    color: white;
+    border-color: white;
+}
+
+.servic img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.updown {
+    float: inline-end;
+    background-color: red;
+    border-radius: 50%;
+    padding: 13px;
+    margin-left: 17px;
+    transition: 1s all ease-in-out;
+    cursor: pointer;
+}
+
+.updown i {
+    font-size: 25px;
+}
+
+.updown a {
+    color: white;
+}
+
+.updown:hover {
+    transform: scale(1.1);
+
+}
+
+#project {
+    background-color: black;
+    width: 100%;
+    height: 1210px;
+    overflow: hidden;
+}
+
+.projects {
+
+    border: 2px solid black;
+    transition: 1s all ease-in-out;
+    cursor: pointer;
+}
+
+
+.projects img {
+    height: 600px;
+    width: 600px;
+
+}
+
+/* contact */
+#contact {
+    background-color: black;
+    width: 100%;
+    height: 300px;
+
+}
+
+.font i {
+    background-color: green;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.detail {
+    color: white;
+    position: relative;
+    left: 70px;
+    bottom: 58px;
+}
+
+.detail small {
+    font-size: 15px;
+    word-spacing: 3px;
+}
+
+.detail h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+.footer-links a {
+    margin-right: 4px;
+}
+
+/* form */
+#form {
+    background-color: black;
+    width: 100%;
+    height: 580px;
+    padding: 10px;
+
+}
+
+.form button {
+    justify-self: center;
+    display: flex;
+}

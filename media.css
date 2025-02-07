@@ -1,0 +1,704 @@
+/* Mobile small screen size  */
+@media only screen and (max-width: 375px) {
+
+    /* header home page */
+    .navbar-nav  a{
+       width: 50%;
+text-align: center;
+margin-top: 5px;
+       
+    }
+    .name h1 {
+        font-size: 45px;
+    }
+
+    .name h2 {
+        font-size: 25px;
+    }
+
+    .name h1,
+    .name h2,
+    .social-links {
+        text-align: center;
+    }
+
+    .social-links a {
+        font-size: 18px;
+    }
+
+    .pic img {
+        width: 340px;
+        height: 340px;
+        margin-top: 25px;
+        margin-left: 3px;
+
+    }
+
+    /* about page  */
+    #footer {
+        height: 700px;
+        width: 100%;
+    }
+
+    .portfolio h2 {
+        margin-top: -25px;
+        margin-bottom: -20px;
+        margin-left: 8px;
+    }
+
+    .text p {
+        padding: 0px;
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+    /* about page design */
+    #aboutuss {
+        width: 100%;
+        height: 1120px;
+    }
+
+    .photo img {
+        width: 350px;
+        height: 350px;
+        margin-top: 40px;
+    }
+
+    .data h2 {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 600;
+    }
+
+    .data li {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    /* counter about page */
+    #counter {
+        margin-top: -60px;
+    }
+
+    /* testominals about page */
+    .card {
+        margin-left: 20px;
+        margin-top: 55px;
+    }
+
+    .card p {
+        margin: auto;
+        margin-bottom: 13px;
+    }
+
+    .card img {
+        top: 150px;
+    }
+
+    .card h6 {
+        top: 250px;
+    }
+
+    .card span {
+        top: 270px;
+
+    }
+
+
+    /* resume page summery  */
+    #summery {
+        width: 100%;
+        height: 1720px;
+    }
+
+    .summery {
+        margin: auto;
+
+    }
+    .summery h3 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .summery h4 {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .summery p{
+      margin-right: 2px;
+    }
+
+    .line-3 {
+        margin-left: 12px;
+        top: 1680px;
+        height: 740px;
+    }
+
+    .lines {
+        margin-left: 12px;
+        top: 60px;
+        height: 440px;
+
+
+    }
+
+    .line {
+        margin-left: 12px;
+
+        top: 825px;
+        height: 250px;
+    }
+
+    .list-items li {
+        margin-bottom: 5px;
+    }
+
+    /* servises */
+    #services {
+        height: 2890px;
+    }
+
+    .servic {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #project {
+        width: 100%;
+        height: 13245px;
+    }
+
+    .projects img {
+        width: 100%;
+        height: 1100px;
+    }
+
+    #contact {
+        width: 100%;
+        height: 530px;
+    }
+
+    .footer-links {
+        margin-right: 120px;
+    }
+
+    #form {
+        width: 100%;
+        height: 680px;
+    }
+}
+
+/* large mobile screen size */
+@media only screen and (min-width:376px) and (max-width: 425px) {
+
+    /* header  */
+    .name h1 {
+        font-size: 52px;
+    }
+
+    .name h2 {
+        font-size: 27px;
+    }
+
+    .name h1,
+    .name h2,
+    .social-links {
+        text-align: center;
+    }
+
+
+    .social-links a {
+        font-size: 20px;
+    }
+
+    .pic img {
+        width: 360px;
+        height: 360px;
+        margin-top: 10px;
+        margin-left: 17px;
+    }
+
+    /* about page  */
+    #footer {
+        height: 650px;
+        width: 100%;
+
+    }
+
+    .portfolio h2 {
+        margin-left: 10px;
+        margin-bottom: -10px;
+        margin-top: -20px;
+    }
+
+    .text p {
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30px;
+    }
+
+    /* about page design */
+    #aboutuss {
+        width: 100%;
+        height: 1160px;
+    }
+
+    .photo img {
+        width: 390px;
+        height: 390px;
+    }
+
+
+    .data h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .data li {
+        flex-direction: column;
+        display: block;
+        padding: 5px;
+        font-size: 18px;
+        justify-content: space-between;
+    }
+
+    /* about page counter */
+    #counter {
+        margin-top: -60px;
+    }
+
+    /* testomials about */
+    .card {
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .card img {
+        top: 135px;
+    }
+
+    /* resume page summery  */
+    #summery {
+        width: 100%;
+        height: 1670px;
+    }
+
+    .summery {
+        margin: auto;
+    }
+
+    .summery p {
+        margin-right: 7px;
+        font-size: 16px;
+    }
+
+    .summery h3 {
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+
+    .summery h4 {
+        text-align: center;
+        font-size: 32px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .line-3 {
+        margin-left: 12px;
+        top: 1610px;
+        height: 713px;
+    }
+
+    .lines {
+        margin-left: 12px;
+        top: 56px;
+        height: 430px;
+    }
+
+    .line {
+        margin-left: 12px;
+        top: 780px;
+        height: 235px;
+    }
+
+    .list-items li {
+        margin-bottom: 8px;
+        margin-right: 2px;
+    }
+
+    /* servises */
+    #services {
+        width: 100%;
+        height: 2870px;
+    }
+
+    .servic {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #project {
+        width: 100%;
+        height: 14445px;
+    }
+
+    .projects img {
+        width: 100%;
+        height: 1200px;
+    }
+
+    #contact {
+        width: 100%;
+        height: 530px;
+    }
+
+    .footer-links {
+        margin-right: 170px;
+    }
+
+    #form {
+        width: 100%;
+        height: 680px;
+    }
+}
+
+/* tablet screen size */
+@media screen and (min-width:426px) and (max-width: 768px) {
+    .name h1 {
+        font-size: 45px;
+    }
+
+    .name h2 {
+        font-size: 25px;
+    }
+
+    .social-links a {
+        font-size: 26px;
+    }
+
+    .pic img {
+        width: 370px;
+        height: 370px;
+        float: right;
+    }
+
+    /* about page */
+    #footer {
+        height: 400px;
+        width: 100%;
+    }
+
+    .text p {
+        margin: 0px;
+
+    }
+
+    .portfolio h2 {
+        margin-bottom: -10px;
+        margin-top: -20px;
+    }
+
+    /* BOUT PAGE DSIGN   */
+
+    .photo img {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    .data h2 {
+        font-size: 20px;
+        font-weight: 700;
+
+
+    }
+
+    .data li {
+        margin: auto;
+        font-size: 19px;
+        padding-top: 5px;
+
+    }
+
+    .data li span {
+        margin: auto;
+        position: relative;
+        right: 50px;
+    }
+
+    /* ABOUT COUNTER */
+    .counter {
+        padding: 1px;
+        margin-top: 0px;
+    }
+
+    /* testominals about */
+    .card {
+        margin-left: 15px;
+    }
+
+    .card img {
+        top: 85px;
+    }
+
+    .card h6 {
+        top: 185px;
+    }
+
+    .card span {
+        top: 205px;
+    }
+
+    /* resume page summery  */
+    #summery {
+        width: 100%;
+        height: 1170px;
+
+    }
+
+    .summery p {
+        font-size: 18px;
+        margin-right: 3px;
+    }
+
+    .summery h3 {
+        margin-bottom: 15px;
+    }
+
+    .summery h4 {
+        font-size: 32px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .summery h6 {
+        font-size: 20px;
+    }
+
+    .line-3 {
+        top: 540px;
+        height: 1010px;
+    }
+
+    .lines {
+
+        top: 56px;
+        height: 630px;
+    }
+
+    .line {
+
+        top: 540px;
+        height: 310px;
+    }
+
+    .list-items li {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+
+    #services {
+        width: 100%;
+        height: 1620px;
+    }
+
+    .serviclaptop {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #project {
+        width: 100%;
+        height: 3020px;
+    }
+
+    .projects img {
+        width: 100%;
+        height: 750px;
+    }
+
+    #contact {
+        width: 100%;
+        height: 300px;
+    }
+
+    .footer-links a {
+        margin-right: 10px;
+    }
+
+    #form {
+        width: 100%;
+        height: 680px;
+    }
+}
+
+
+/* smal screen laptop */
+@media screen and (min-width:769px) and (max-width: 1024px) {
+
+    /* header */
+    .name h1 {
+        font-size: 60px;
+    }
+
+    .name h2 {
+        font-size: 35px;
+    }
+
+    .social-links a {
+        font-size: 27px;
+    }
+
+    .pic img {
+        width: 450px;
+        height: 450px;
+        float: right;
+    }
+
+    /* about page */
+    #footer {
+        height: 350px;
+        width: 100%;
+    }
+
+    .portfolio h2 {
+        margin-top: -20px;
+        margin-bottom: -10px;
+    }
+
+    .text p {
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30px;
+    }
+
+    /* about page design */
+    #aboutuss {
+        width: 100%;
+        height: 570px;
+    }
+
+    .photo img {
+        width: 450px;
+        height: 450px;
+    }
+
+    .data h2 {
+        font-size: 27px;
+        font-weight: 700;
+    }
+
+    .data li {
+        font-size: 22px;
+
+    }
+
+    .data li span {
+        position: relative;
+        right: 50px;
+    }
+
+    /* about page counter */
+    .counter {
+        padding: 5px;
+        margin-top: 0px;
+    }
+
+    /* testominals about */
+    .card {
+        margin-left: 15px;
+    }
+
+    .card p {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+
+    .card img {
+        top: 175px;
+    }
+
+    .card h6 {
+        top: 280px;
+    }
+
+    .card span {
+        top: 300px;
+    }
+
+    /* resume page summery  */
+    #summery {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .summery p {
+     
+    }
+
+    .summery h3 {
+        margin-bottom: 15px;
+        font-size: 26px;
+    }
+
+    .summery h4 {
+        font-size: 40px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .summery h6 {
+        font-size: 23px;
+    }
+
+    .line-3 {
+        top: 500px;
+        height: 810px;
+    }
+
+    .lines {
+
+        top: 70px;
+        height: 455px;
+    }
+
+    .line {
+
+        top: 500px;
+        height: 245px;
+    }
+
+    .list-items li {
+        font-size: 19px;
+    }
+
+    #services {
+        width: 100%;
+        height: 1100px;
+    }
+
+    #project {
+        width: 100%;
+        height: 1810px;
+    }
+
+}
+
+/* full screen size laptop */
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    .counter {
+        margin-top: 0px;
+    }
+
+    .summery p {
+        margin-right: 7px;
+    }
+}
